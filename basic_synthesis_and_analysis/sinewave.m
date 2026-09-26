@@ -1,3 +1,5 @@
+% Sinewave function
+
 function x = sinewave(f, A)
 
 t = 0:0.01:1;
