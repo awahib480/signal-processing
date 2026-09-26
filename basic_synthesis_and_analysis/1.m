@@ -1,4 +1,4 @@
-// Generate a script file which produces a sine wave with 2 Hz frequency.
+% Generate a script file which produces a sine wave with 2 Hz frequency.
 
 t=0:0.01:2;
 f=2;
