@@ -1,3 +1,5 @@
+% Repeat all above tasks by using stem command rather than plot command.
+
 function x = s(t)
 x = sin(2*pi*t);
 stem(t, x);
