@@ -1,5 +1,4 @@
-% Implement a function as defined below, which produces a sine wave of 1001
-samples with spacing of 1 ms.
+% Implement a function as defined below, which produces a sine wave of 1001 samples with spacing of 1 ms.
 % [x]=sinewave(t)
 
 f = 2;
