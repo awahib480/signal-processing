@@ -1,5 +1,4 @@
-% Generate a script file which produces a sine wave by taking frequency as an input
-at run time.
+% Generate a script file which produces a sine wave by taking frequency as an input at run time.
 
 t=0:0.01:2;
 f=input("Enter frequency: ");
