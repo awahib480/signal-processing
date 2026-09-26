@@ -1,3 +1,6 @@
+% Write MATLAB function for plotting the 5 harmonics of a signal x(t)=cos(wt)
+% with a fundamental frequency of f = 0.5 Hz. Take t = 0:0.01:2
+
 function harmonics()
 
 f0 = 0.5;
