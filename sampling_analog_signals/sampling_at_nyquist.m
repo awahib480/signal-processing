@@ -1,3 +1,6 @@
+% script to convert continuous time signal of ct_sinusoid to a discrete time signal
+% and take the sampling frequency as input which should be equal to twice the maximum signal frequency in Hertz.
+
 f = input('Enter frequency in Hz: ');
 fs = input('Enter sampling frequency in Hz: ');
 
