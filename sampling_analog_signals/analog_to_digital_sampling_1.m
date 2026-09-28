@@ -1,3 +1,9 @@
+% Consider the analog signal
+% xa(t) = 3 cos(100πt)
+
+% Suppose that the signal is sampled at the rate Fs=200 Hz. What is the discrete time signal
+% obtained after sampling? Plot the discrete-time signal.
+
 t = 0:0.001:0.1;
 x = 3*cos(100*pi*t);
 
