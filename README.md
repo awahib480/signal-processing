@@ -1,2 +1,2 @@
-# signal-processing
+# digital signal processing
 Processing of digital signals implemented in MATLAB
