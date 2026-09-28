@@ -1,3 +1,5 @@
+% a script using subplot command to generate task#1, task#2, task#3 and task#4 plots.
+
 f = input('Enter signal frequency: ');
 t = 0:0.001:1;
 x = 2*sin(2*pi*f*t);
