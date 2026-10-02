@@ -1,0 +1,38 @@
+n = 0:199;
+f = 1/50;
+N = 200;
+
+% Original signal
+x = cos(2*pi*f*n);
+
+% Rounding to 256 levels
+L = 256;
+Xmax = 1;
+Xmin = -1;
+Delta = (Xmax-Xmin)/(L-1);  %quantization step size
+
+xq = round((x-Xmin)/Delta)*Delta + Xmin; % round to levels
+eq = xq-x;
+
+% Plot
+figure;
+subplot(3,1,1);
+stem(n,x);
+title('Original Signal');
+
+subplot(3,1,2);
+stem(n,xq);
+title('Quantized Signal (256 Levels)');
+
+subplot(3,1,3);
+stem(n,eq);
+title('Quantization Error');
+
+% SQNR
+Px = (1/N)*sum(x.^2);
+Pq = (1/N)*sum(eq.^2);
+SQNR = 10*log10(Px/Pq);
+
+fprintf('Px = %.6f\n',Px);
+fprintf('Pq = %.6f\n',Pq);
+fprintf('SQNR = %.6f dB\n',SQNR);
