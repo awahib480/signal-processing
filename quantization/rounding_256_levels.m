@@ -1,3 +1,5 @@
+% Rounding to 256 levels. Plot the signals x (n), xq (n) and eq (n) and also compute the corresponding SQNR
+
 n = 0:199;
 f = 1/50;
 N = 200;
