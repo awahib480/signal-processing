@@ -1,3 +1,5 @@
+% For fo = 1/50 and N = 200, write a program to quantize the signal x (n), using truncation
+
 n = 0:199;
 f = 1/50;
 N = 200;
