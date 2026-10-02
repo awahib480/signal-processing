@@ -1,3 +1,6 @@
+% Simulate a discrete time continuous valued (DTCV) sinusoid of 1/50 cycles/sample with length of the signal to be 500 & choose the no. of significant digits for round-
+% off and apply to the signal generated above. Compute the error signals and SQNR.
+
 n = 0:1:499;
 A = 1;
 x = A*cos(2*pi*(1/50)*n);
